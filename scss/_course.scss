@@ -1,0 +1,130 @@
+.courses {
+    margin-bottom: 100px;
+    overflow: hidden;
+    &-heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        h2 {
+            margin-bottom: 30px;
+            color: $main-black;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .strong {
+            margin-bottom: 30px;
+            color: $main-green;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+        }
+        &__list {
+            display: flex;
+            align-items: center;
+            margin: 0;
+            margin-bottom: 30px;
+            padding: 0;
+            list-style: none;
+            li {
+                margin-right: 15px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                a {
+                    @extend .border-btn;
+                    padding: 5px 20px;
+                }
+            }
+        }
+        p {
+            color: $main-black;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+        }
+    }
+    &-image {
+        position: relative;
+        width: 450px;
+        height: 450px;
+        margin: 0 auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 160% 120% 90% 160%;
+        -webkit-border-radius: 160% 120% 90% 160%;
+        -moz-border-radius: 160% 120% 90% 160%;
+        -ms-border-radius: 160% 120% 90% 160%;
+        -o-border-radius: 160% 120% 90% 160%;
+        transition: all .3s ease-out;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        -ms-transition: all .3s ease-out;
+        -o-transition: all .3s ease-out;
+        animation: about-image-courses 10s infinite;
+        -webkit-animation: about-image-courses 10s infinite;
+        &__play {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            width: 70px;
+            height: 70px;
+            background-image: url(../img/play-btn.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            &:hover {
+                transform: translate(-50%,-50%) scale(1.1);
+                -webkit-transform: translate(-50%,-50%) scale(1.1);
+                -moz-transform: translate(-50%,-50%) scale(1.1);
+                -ms-transform: translate(-50%,-50%) scale(1.1);
+                -o-transform: translate(-50%,-50%) scale(1.1);
+            }
+        }
+        &:hover {
+            filter: grayscale(1);
+            -webkit-filter: grayscale(1);
+        }
+    }
+}
+
+@keyframes about-image-courses {
+    0% {
+        border-radius: 160% 120% 90% 160%;
+        -webkit-border-radius: 160% 120% 90% 160%;
+        -moz-border-radius: 160% 120% 90% 160%;
+        -ms-border-radius: 160% 120% 90% 160%;
+        -o-border-radius: 160% 120% 90% 160%;
+}
+
+    25% {
+        border-radius: 180% 80% 120% 100%;
+        -webkit-border-radius: 180% 80% 120% 100%;
+        -moz-border-radius: 180% 80% 120% 100%;
+        -ms-border-radius: 180% 80% 120% 100%;
+        -o-border-radius: 180% 80% 120% 100%;
+    }
+
+    50% {
+        border-radius: 160% 170% 150% 140%;
+        -webkit-border-radius: 160% 170% 150% 140%;
+        -moz-border-radius: 160% 170% 150% 140%;
+        -ms-border-radius: 160% 170% 150% 140%;
+        -o-border-radius: 160% 170% 150% 140%;
+}
+
+    75% {
+        border-radius: 200% 140% 90% 120%;
+        -webkit-border-radius: 200% 140% 90% 120%;
+        -moz-border-radius: 200% 140% 90% 120%;
+        -ms-border-radius: 200% 140% 90% 120%;
+        -o-border-radius: 200% 140% 90% 120%;
+}
+}

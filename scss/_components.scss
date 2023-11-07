@@ -1,0 +1,84 @@
+// Colors
+$main-black: #000;
+$main-white: #fff;
+$main-green: #23A95C;
+$main-gray: #F2F2F2;
+
+// Buttons
+.custom-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+}
+
+.border-btn {
+    padding: 15px 30px;
+    color: $main-green;
+    border: 2px solid $main-green;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    &:hover {
+        color: $main-white;
+        background-color: $main-green;
+    }
+}
+
+.fill-btn {
+    padding: 15px 30px;
+    color: $main-white;
+    background-color: $main-green;
+    border: 2px solid $main-green;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    text-align: center;
+    &:hover {
+        color: $main-green;
+        background-color: $main-white;
+    }
+}
+
+// Titles
+.section-title {
+    margin-bottom: 30px;
+    color: $main-black;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+    span {
+        color: $main-green;
+    }
+}
+
+@keyframes circle-rotation {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+        -webkit-transform: translate(-50%, -50%) rotate(0deg);
+        -moz-transform: translate(-50%, -50%) rotate(0deg);
+        -ms-transform: translate(-50%, -50%) rotate(0deg);
+        -o-transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+        -webkit-transform: translate(-50%, -50%) rotate(360deg);
+        -moz-transform: translate(-50%, -50%) rotate(360deg);
+        -ms-transform: translate(-50%, -50%) rotate(360deg);
+        -o-transform: translate(-50%, -50%) rotate(360deg);
+    }
+}

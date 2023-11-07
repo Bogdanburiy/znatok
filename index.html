@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fancybox CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="scss/main.css">
+
+    <title>ЗнатОК - Центр розвитку</title>
+
+</head>
+<body>
+    
+    <header class="header" data-aos="fade-down">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Логотип">
+                        </a>
+                    </div>
+                    <!-- /.header-logo -->
+                </div>
+                <!-- /.col-4 -->
+                <div class="col-8">
+                    <div class="header-info">
+                        <div class="header-info__phone">
+                            <a href="tel:+380973622100">+38 (097) 362-21-00</a>
+                        </div>
+                        <!-- /.header-info__phone -->
+                        <a href="#" class="custom-btn border-btn">Спробувати безкоштовно</a>
+                        <!-- /.border-btn -->
+                        <div class="header-info__hamburger" id="hamb-toggle" aria-expanded="false" aria-controls="overlay">
+                            <span class="top"></span>
+                            <span class="middle"></span>
+                            <span class="bottom"></span>
+                        </div>
+                        <!-- /.header-info__hamburger -->
+                    </div>
+                    <!-- /.header-info -->
+                </div>
+                <!-- /.col-8 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <!-- /.header -->
+
+    <div class="mobile-menu" id="overlay" aria-hidden="true" aria-labelledby="hamb-toggle" role="navigation">
+        <nav class="mobile-menu__nav">
+            <ul>
+                <li><a href="#courses-program">Программа курсу</a></li>
+                <li><a href="#about-us">Про нас</a></li>
+                <li><a href="#feedback">Відгуки</a></li>
+                <li><a href="#bonus">Бонус</a></li>
+            </ul>
+        </nav>
+        <!-- /.mobile-menu -->
+        <div class="mobile-menu__info">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/instagram-icon.svg" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/telegram-icon.svg" alt="Telegram">
+                    </a>
+                </li>
+            </ul>
+            <a class="mobile-phone" href="tel:+38 (097) 362-21-00">+38 (097) 362-21-00</a>
+            <a href="#" class="border-btn">Спробувати безкоштовно</a>
+            <!-- /.border-btn -->
+        </div>
+        <!-- /.mobile-menu__info -->
+    </div>
+    <!-- /.header -->
+
+    <section class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="intro-heading">
+                        <h1 data-aos="fade-up" data-aos-delay="50">
+                            Центр розвитку <span>ЗнатОК</span> тепер надає доступ до уроків у записі!
+                        </h1>
+                        <p data-aos="fade-up" data-aos-delay="100">Купуй базовий курс з математики, де у стислому <br> форматі подається шкільна програма за 6-9 клас</p>
+                        <a data-aos="fade-up" data-aos-delay="150" href="#" class="custom-btn fill-btn">Хочу!</a>
+                        <!-- /.custom-btn fill-btn -->
+                    </div>
+                    <!-- /.intro-heading -->
+                </div>
+                <!-- /.col-md-6 -->
+                <div class="col-md-6">
+                    <div data-aos="fade-left" data-aos-delay="200" class="intro-image" style="background-image: url(img/intro-image.png);">
+                        <div class="intro-image__parent">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.intro-image__parent -->
+                    </div>
+                    <!-- /.intro-image -->
+                </div>
+                <!-- /.col-md-6 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.intro -->
+
+    <section class="about" id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-lg-5">
+                    <div data-aos="fade-right" data-aos-delay="50" class="about-image" style="background-image: url(img/about-image.png);"></div>
+                    <!-- /.about-image -->
+                </div>
+                <!-- /.col-md-5 -->
+                <div class="col-md-7 offset-lg-1 col-lg-6">
+                    <div class="about-content">
+                        <h2 data-aos="fade-up" data-aos-delay="50">
+                            Центр розвитку <span>ЗнатОк</span> пропонує сучасний підхід до навчання.
+                        </h2>
+                        <div data-aos="fade-up" data-aos-delay="100" class="strong">Ми працюємо у <br> дистанційному форматі.</div>
+                        <!-- /.strong -->
+                        <div data-aos="fade-up" data-aos-delay="150" class="note-text">Тому чекаємо на учнів з будь-якого <br> куточка України або поза її межами</div>
+                        <!-- /.note-text -->
+                        <p data-aos="fade-up" data-aos-delay="200">Уроки в записі з математики для школярів 6-9 класів це чудова можливість отримати корисні знання у стислому форматі за скорочений термін.</p>
+                        <p data-aos="fade-up" data-aos-delay="250">Ми гарантуємо, що цієї бази буде достатньо, щоб якісно засвоїти матеріал за певний клас.</p>
+                    </div>
+                    <!-- /.about-content -->
+                </div>
+                <!-- /.col-md-6 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.about -->
+
+    <section class="courses" id="courses-program">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-7">
+                    <div class="courses-heading">
+                        <h2 data-aos="fade-up" data-aos-delay="50">Детальніше про програми експрес-курсів </h2>
+                        <div data-aos="fade-up" data-aos-delay="100" class="strong">Виберіть курс який вас цікавить щоб переглянути програму</div>
+                        <!-- /.strong -->
+                        <ul data-aos="fade-up" data-aos-delay="150" class="courses-heading__list">
+                            <li><a data-fancybox data-src="#program-modal" href="#">6 клас</a></li>
+                            <li><a href="#">7 клас</a></li>
+                            <li><a href="#">8 клас</a></li>
+                            <li><a href="#">9 клас</a></li>
+                        </ul>
+                        <!-- /.courses-heading__list -->
+                        <p data-aos="fade-up" data-aos-delay="200">Уроки в записі з математики для школярів 6-9 класів це чудова можливість <br> отримати корисні знання у стислому форматі за скорочений термін.</p>
+                        <p data-aos="fade-up" data-aos-delay="250">Ми гарантуємо, що цієї бази буде достатньо, щоб якісно засвоїти матеріал за певний клас.</p>
+                    </div>
+                    <!-- /.courses-heading -->
+                </div>
+                <!-- /.col-md-7 -->
+                <div class="col-md-6 col-lg-5">
+                    <div data-aos="fade-left" data-aos-delay="200" class="courses-image" style="background-image: url(img/course-image.jpg);">
+                        <a href="#" class="courses-image__play"></a>
+                        <!-- /.courses-image__play -->
+                    </div>
+                    <!-- /.courses-image -->
+                </div>
+                <!-- /.col-md-5 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.courses -->
+
+    <section class="forwhom">
+        <div class="container">
+            <div class="forwhom-content">
+                <h2 data-aos="fade-up" data-aos-delay="50">Такий експрес-курс підходить для двох типів учнів:</h2>
+                <ul>
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <i class="icon">
+                            <img src="img/forwhom-icon-1.svg" alt="Іконка">
+                        </i>
+                        <!-- /.icon -->
+                        Ті, що вже пройшли шкільну програму, але з певних причин її повністю або частково не засвоїли.
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="150">
+                        <i class="icon">
+                            <img src="img/forwhom-icon-2.svg" alt="Іконка">
+                        </i>
+                        <!-- /.icon -->
+                        Ті, що прагнуть нових знань та готові додатково займатись після шкільних уроків.
+                    </li>
+                </ul>
+                <p data-aos="fade-up" data-aos-delay="200">Все, що від вас потрібно – обрати потрібний курс та придбати його. А далі ми надсилаємо записані уроки тривалістю від 45 до 90 хвилин та пропонуємо виконати домашні завдання, що сформовані на основі записаних занять.</p>
+                <a data-aos="fade-up" data-aos-delay="250" href="#" class="fill-btn">Обрати курс</a>
+                <!-- /.fill-btn -->
+            </div>
+            <!-- /.forwhom-content -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.forwhom -->
+
+    <section class="benefits">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div data-aos="fade-right" class="benefits-card benefits-card-first">
+                        <p>Ми працюємо для вас</p>
+                        <div class="strong">понад <span>6</span> років</div>
+                        <!-- /.strong -->
+                        <div class="benefits-card__border">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.benefits-card__border -->
+                    </div>
+                    <!-- /.benefits-card -->
+                </div>
+                <!-- /.col-md-6 -->
+                <div class="col-md-6">
+                    <div data-aos="fade-left" data-aos-delay="50" class="benefits-card benefits-card-second">
+                        <p>Ми працюємо для вас</p>
+                        <div class="strong">понад <span>6</span> років</div>
+                        <!-- /.strong -->
+                        <div class="benefits-card__border">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.benefits-card__border -->
+                    </div>
+                    <!-- /.benefits-card -->
+                </div>
+                <!-- /.col-md-6 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.benefits -->
+
+    <section class="weknow">
+        <div class="container">
+            <h2 data-aos="fade-up" data-aos-delay="50" class="section-title">
+                Тому ми точно знаємо як зробити освітній процес <span>зручним, дієвим та результативним</span> у сучасних умовах
+            </h2>
+            <div data-aos="fade-up" data-aos-delay="100" class="strong">Переваги для наших клієнтів:</div>
+            <!-- /.strong -->
+            <ul>
+                <li data-aos="fade-up" data-aos-delay="150">
+                    <i class="icon">
+                        <img src="img/wknow-icon-1.svg" alt="Іконка">
+                    </i>
+                    <!-- /.icon -->
+                    Доступ до відеоматеріалу 24 на 7. У будь-який момент відео можна перемотати, пришвидшити або поставити на паузу. Так учень точно засвоїть отримані знання та зможе проходити навчання у зручному для себе темпі.
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200">
+                    <i class="icon">
+                        <img src="img/wknow-icon-2.svg" alt="Іконка">
+                    </i>
+                    <!-- /.icon -->
+                    Можливість закріпити теорію на практиці. Кожен записаний курс містить перелік домашніх завдань, які створені на базі пройденого матеріалу. Таким чином учень має змогу самостійно перевірити якість отриманих знань.
+                </li>
+                <li data-aos="fade-up" data-aos-delay="250">
+                    <i class="icon">
+                        <img src="img/wknow-icon-3.svg" alt="Іконка">
+                    </i>
+                    <!-- /.icon -->
+                    Досвідчені викладачі, що знають і люблять свою справу. У нашому центрі всі фахівці мають вищу освіту та досвід у певній галузі. Тому кожен курс змістовний і продуманий до деталей.
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                    <i class="icon">
+                        <img src="img/wknow-icon-4.svg" alt="Іконка">
+                    </i>
+                    <!-- /.icon -->
+                    Вигідна ціна за базовий курс з математики. Можливість освіжити пройдений матеріал або отримати нові додаткові знання за суперціною. Учень самостійно обирає оптимальний темп для навчання, підлаштовуючи ці уроки під свій графік.
+                </li>
+            </ul>
+            <a data-aos="fade-up" data-aos-delay="50" href="#" class="fill-btn">Хочу навчатись</a>
+            <!-- /.fill-btn -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.weknow -->
+
+    <section class="clients" id="feedback">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-3">
+                    <div class="clients-heading">
+                        <h2 data-aos="fade-up" data-aos-delay="50" class="section-title">
+                            Наші задоволені <span>клієнти діляться враженнями</span>
+                        </h2>
+                        <!-- /.section-title -->
+                        <div data-aos="fade-up" data-aos-delay="100" class="clients-heading__nav">
+                            <ul>
+                                <li class="clients-nav__prev">
+                                    <img src="img/carousel-prev.svg" alt="Попередній слайд">
+                                </li>
+                                <li class="clients-nav__next">
+                                    <img src="img/carousel-next.svg" alt="Наступний слайд">
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.clients-heading__nav -->
+                    </div>
+                    <!-- /.clients-heading -->
+                </div>
+                <!-- /.col-md-12 col-lg-3 -->
+                <div class="col-md-12 col-lg-9">
+                    <div data-aos="fade-left" data-aos-delay="150" class="clients-carousel">
+                        <div>
+                            <div class="clients-carousel__card">
+                                <i class="icon">
+
+                                </i>
+                                <!-- /.icon -->
+                                <div class="strong">
+                                    Анастасія
+                                </div>
+                                <!-- /.strong -->
+                                <p>
+                                    “Дуже хочу подякувати вам. Я безмежно вдячна за ці уроки математики😇Завдяки цьому курсу я вступила у той навчальний заклад, про який мріяла. Ви допомогли мені втілити мрію в життя”
+                                </p>
+                            </div>
+                            <!-- /.clients-carousel__card -->
+                        </div>
+                        <div>
+                            <div class="clients-carousel__card">
+                                <i class="icon">
+                                    
+                                </i>
+                                <!-- /.icon -->
+                                <div class="strong">
+                                    Надія
+                                </div>
+                                <!-- /.strong -->
+                                <p>
+                                    “Це дійсно зручний формат навчання. Навіть за короткий період ми з сином побачили суттєві зміни у його навчанні та отримали стимул рухатися далі, щоб досягти максимального результату 🚀”
+                                </p>
+                            </div>
+                            <!-- /.clients-carousel__card -->
+                        </div>
+                        <div>
+                            <div class="clients-carousel__card">
+                                <i class="icon">
+                                    
+                                </i>
+                                <!-- /.icon -->
+                                <div class="strong">
+                                    Світлана
+                                </div>
+                                <!-- /.strong -->
+                                <p>
+                                    “Мені подобається, що оплачувати заняття можна швидко, безпечно й зручно. Уроками повністю задоволені, бо можна проходити всі матеріали у зручний час. Дитина самостійно коригує свій навчальний графік. Сину подобається та легка форма подачі інформації, якої дотримуються викладачі, а я бачу його успіхи. Дуже вам вдячна💛💙”
+                                </p>
+                            </div>
+                            <!-- /.clients-carousel__card -->
+                        </div>
+                        <div>
+                            <div class="clients-carousel__card">
+                                <i class="icon">
+                                    
+                                </i>
+                                <!-- /.icon -->
+                                <div class="strong">
+                                    Анастасія
+                                </div>
+                                <!-- /.strong -->
+                                <p>
+                                    “Дуже хочу подякувати вам. Я безмежно вдячна за ці уроки математики😇Завдяки цьому курсу я вступила у той навчальний заклад, про який мріяла. Ви допомогли мені втілити мрію в життя🫶”
+                                </p>
+                            </div>
+                            <!-- /.clients-carousel__card -->
+                        </div>
+                    </div>
+                    <!-- /.clients-carousel -->
+                </div>
+                <!-- /.col-md-12 col-lg-9 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.clients -->
+
+    <section class="bonus" id="bonus">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-5">
+                    <div data-aos="fade-right" data-aos-delay="50" class="bonus-image">
+                        <div class="bonus-image__parent" style="background-image: url(img/intro-image.png);">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <!-- /.bonus-image__parent -->
+                    </div>
+                    <!-- /.bonus-image -->
+                </div>
+                <!-- /.col-md-6 col-lg-5 -->
+                <div class="col-md-6 offset-lg-1 col-lg-6">
+                    <div class="bonus-heading">
+                        <h2 data-aos="fade-up" data-aos-delay="100" class="section-title">
+                            Ми прагнемо зробити освіту доступною та якісною для кожного
+                        </h2>
+                        <!-- /.section-title -->
+                        <div data-aos="fade-up" data-aos-delay="150" class="bonus-heading__note">
+                            Саме тому для всіх, хто хоче спробувати навчання у центрі розвитку <span>ЗнатОК</span>, ми пропонуємо <span>вітальний бонус – перше пробне заняття безкоштовно.</span>
+                        </div>
+                        <!-- /.bonus-heading__note -->
+                        <div data-aos="fade-up" data-aos-delay="200" class="strong">
+                            Ви спробуєте для себе такий формат, а потім зможете придбати повний курс за спеціальною ціною у нашому чат-боті.
+                        </div>
+                        <!-- /.strong -->
+                        <a data-aos="fade-up" data-aos-delay="250" href="#" class="fill-btn">Хочу бонус!</a>
+                        <!-- /.fill-btn -->
+                    </div>
+                    <!-- /.bonus-heading -->
+                </div>
+                <!-- /.col-md-6 offset-lg-1 col-lg-6 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.bonus -->
+
+    <footer data-aos="fade-up" data-aos-delay="50" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content__column">
+                    <div class="footer-content__column-logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Логотип">
+                        </a>
+                    </div>
+                    <!-- /.footer-content__column-logo -->
+                    <div class="footer-content__column-contact">
+                        <div class="strong">Контакти</div>
+                        <!-- /.strong -->
+                        <ul>
+                            <li>
+                                <a href="mailto:znatokdp@gmail.com">
+                                    <i class="icon"><img src="img/email-icon.svg" alt="Іконка"></i>
+                                    <!-- /.icon -->
+                                    znatokdp@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:+380973622100">
+                                    <i class="icon"><img src="img/phone-icon.svg" alt="Іконка"></i>
+                                    <!-- /.icon -->
+                                    +38 (097) 362-21-00
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.footer-content__column-contact -->
+                </div>
+                <!-- /.footer-content__column -->
+                <div class="footer-content__column">
+                    <div class="footer-content__column-call">
+                        <h2>Нумо розвиватись і навчатись разом!</h2>
+                        <p>За допомогою чат-бота можна отримати більше <br> інформації та замовити курс</p>
+                        <a href="#" class="fill-btn">Замовити дзвінок</a>
+                        <!-- /.fill-btn -->
+                    </div>
+                    <!-- /.footer-content__column-call -->
+                </div>
+                <!-- /.footer-content__column -->
+                <div class="footer-content__column">
+                    <div class="footer-content__column-social">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="img/instagram-icon.svg" alt="Instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/telegram-icon.svg" alt="Telegram">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.footer-content__column-social -->
+                    <div class="footer-content__column-pages">
+                        <ul>
+                            <li>
+                                <a href="#">Політика конфіденційності</a>
+                            </li>
+                            <li>
+                                <a href="#">Договір оферта</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.footer-content__column-pages -->
+                    <div class="footer-content__column-copyright">
+                        © «ЗнатОК» — навчальний центр для дітей та дорослих
+                    </div>
+                    <!-- /.footer-content__column-copyright -->
+                </div>
+                <!-- /.footer-content__column -->
+            </div>
+            <!-- /.footer-content -->
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- /.footer -->
+
+    <div id="program-modal" class="custom-modal express-courses" style="display: none;">
+        <h2>Програми експрес-курсів для 7 класу</h2>
+        <div class="express-courses__tab">
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="active" id="pills-1-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1" aria-selected="true">Алгебра</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button id="pills-2-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2" aria-selected="false">Геометрія</button>
+                </li>
+            </ul>
+        </div>
+        <!-- /.express-courses__tab -->
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                <div class="express-courses__list">
+                    <div class="express-courses__list-card">
+                        <a class="collapsed" data-bs-toggle="collapse" href="#express-courses-1" role="button" aria-expanded="false" aria-controls="express-courses-1">
+                            «Найпростіші геометричні фігури»
+                        </a>
+                        <div class="collapse" id="express-courses-1">
+                            <div class="card card-body">
+                              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.express-courses__list-card -->
+                    <div class="express-courses__list-card">
+                        <a class="collapsed" data-bs-toggle="collapse" href="#express-courses-2" role="button" aria-expanded="false" aria-controls="express-courses-2">
+                            «Кути»
+                        </a>
+                        <div class="collapse" id="express-courses-2">
+                            <div class="card card-body">
+                              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.express-courses__list-card -->
+                </div>
+                <!-- /.express-courses__list -->
+            </div>
+            <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+
+            </div>
+        </div>
+        <a href="#" class="fill-btn">Хочу на курс!</a>
+        <!-- /.fill-btn -->
+    </div>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Slick JS -->
+    <script src="js/slick.min.js"></script>
+    <!-- Fancybox JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+    <script>
+        Fancybox.bind('[data-fancybox]', {});    
+    </script>
+
+    <script>
+        AOS.init({
+            once: true,
+            duration: 1200,
+        });
+    </script>
+    
+</body>
+</html>

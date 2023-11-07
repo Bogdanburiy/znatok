@@ -1,0 +1,46 @@
+.weknow {
+    margin-bottom: 100px;
+    overflow: hidden;
+    h2.section-title {
+        text-align: center;
+        span {
+            display: inline-block;
+        }
+    }
+    .strong {
+        margin-bottom: 20px;
+        color: $main-black;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    ul {
+        margin: 0;
+        margin-bottom: 30px;
+        padding: 0;
+        list-style: none;
+        li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            color: $main-black;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            i.icon {
+                display: block;
+                margin-right: 20px;
+            }
+        }
+    }
+    a.fill-btn {
+        display: block;
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
